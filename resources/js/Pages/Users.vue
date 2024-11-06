@@ -1,12 +1,14 @@
 <script>
-import Layout from '../Shared/Layout.vue';
-import { Link } from '@inertiajs/vue3';
+// import Layout from '../Shared/Layout.vue';
+// import { Link } from '@inertiajs/vue3';
 
     export default{
         components: {
-            Layout,
-            Link,
+            // Layout,
+            // Link,
         },
+
+        // layout: Layout,
 
         props: {
             time: String,
@@ -15,9 +17,9 @@ import { Link } from '@inertiajs/vue3';
 </script>
 
 <template>
-    <Layout>
+    <!-- <Layout> -->
         <h1 class="text-3xl">Users</h1>
-    </Layout>
+    <!-- </Layout> -->
 
     <div style="margin-top: 400px;">
         <p>The current time is {{ time }}</p>

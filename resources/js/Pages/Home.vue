@@ -1,22 +1,21 @@
 <script>
-import Layout from '../Shared/Layout.vue';
+// import Layout from '../Shared/Layout.vue';
 
     export default{
-        components: {
-            Layout,
-        },
+        // components: {
+        //     Layout,
+        // },
 
-        props: {
-            username: String,
-        }
+        // layout: Layout
+
     }
 </script>
 
 <template>
-    <Layout :username="username">
+    <!-- <Layout> -->
         <h1 class="text-3xl">Home</h1>
 
-    </Layout>
+    <!-- </Layout> -->
 </template>
 
 
