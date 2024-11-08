@@ -31,7 +31,7 @@ export default{
 
     <section class="p-6">
         <div class="max-w-3xl mx-auto">
-            <iframe class="mb-6"width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/7b274140-6dc1-4bfb-b268-93ca492a1c99?dark=false"></iframe>
+            <!-- <iframe class="mb-6"width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/7b274140-6dc1-4bfb-b268-93ca492a1c99?dark=false"></iframe> -->
             <slot />
         </div>
     </section>

@@ -12,5 +12,5 @@ import { Link } from '@inertiajs/vue3';
 </script>
 
 <template>
-    <Link href="/" class="text-blue-500 hover:underline" :class="{'font-bold underline': active}"><slot/></Link>
+    <Link href="/" class="text-black hover:underline" :class="{'font-bold underline': active}"><slot/></Link>
 </template>
